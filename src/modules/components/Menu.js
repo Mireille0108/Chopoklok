@@ -8,11 +8,17 @@ import menu6 from '../../assets/images/menu-6.jpg';
 const Menu = () => {
     return (
         <section className="menu-container">
-            <header className="header-container">
-                <h1>Today's Menu</h1>
-                <span></span>
+            <header className="header-container flex flex-col justify-center w-1/2">
+                <h1 className="text-orange-600 text-3xl font-extrabold">Today's Menu</h1>
+                <p className="h-5 w-1/2 bg-teal-700 relative"></p>
             </header>
-            <div className="menu-items-container">
+            <div className="menu-items-container
+             w-full
+            flex justify-center
+             items-center 
+             gap-2
+            flex-wrap
+           ">
                 <div className="menu-item">
                     <span>menu 1</span>
                     <img src={menu1} />
