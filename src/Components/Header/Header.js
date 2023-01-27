@@ -22,7 +22,7 @@ const nav_links = [
     path: "/contact",
   },
   {
-    display: "sales",
+    display: "Sales",
     path: "/sale",
   },
 ];
